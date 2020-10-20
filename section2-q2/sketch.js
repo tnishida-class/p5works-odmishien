@@ -21,6 +21,7 @@ function setup() {
   // 赤丸
   fill(255, 0, 0);
   for (let k = 0; k < 8; k++) {
+    // 上側3行しか必要ない
     for (let l = 0; l < 3; l++) {
       if (l % 2 === 0) {
         if (k % 2 !== 0) {
@@ -47,6 +48,7 @@ function setup() {
   // 白丸
   fill(255, 255, 255);
   for (let m = 0; m < 8; m++) {
+    // 下側3行しか必要ない
     for (let n = 5; n < 9; n++) {
       if (n % 2 === 0) {
         if (m % 2 !== 0) {
